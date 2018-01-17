@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+     <meta charset="utf-8" />
+	<meta name="description" content="Any feedback, special requests, or other information can be requested through here."/>
+    <title>Say Hello</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="images/favicon.jpg" />
+</head>
+
+<body>
+    <h1 id="headings">Say Hello</h1>
+    <div id="wrap">
+        <ul id="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="albums.html">Albums</a>
+                <ul id="lined">
+                    <li><a href="Twenty One Pilots.html">Twenty One Pilots</a></li>
+                    <li><a href="Regional at Best.html">Regional at Best</a></li>
+                    <li><a href="Vessel.html">Vessel</a></li>
+                    <li><a href="Blurryface.html">Blurryface</a></li>
+                </ul>
+            </li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a target="_space" href="https://www.youtube.com/watch?v=pXRviuL6vMY&list=PLekNfBXtDGkTSftpoWuVqbkYlni-v164R">Videos</a></li>
+        </ul>
+    </div>
+    <p class="headings2">Contact Us</p>
+    <article id="content">
+        <form>
+            <fieldset id="contactinfo">
+                <legend><span>contact information</span></legend>
+                <label>
+                    name
+                    <input type="text" name="name" id="nameinput" placeholder=" first and last name" />
+                </label>
+                </br>
+                </br>
+                <label>
+                    email
+                    <input type="email" name="email" id="emailinput" placeholder=" address@example.com" />
+                </label>
+            </fieldset>
+            <fieldset id="additionalinfo">
+                <legend><span> message </span></legend>
+                <label>
+                    feedback, special requests, or other information
+                    </br>
+                    <textarea id="feedback" name="feedback" rows="10" cols="100" placeholder=" message">
+                    </textarea>
+                </label>
+            </fieldset>
+
+            <fieldset id="submitbutton">
+                <input type="submit" id="submit" value="submit" />
+            </fieldset>
+        </form>
+    </article>
+	<div id="audio">
+	<audio controls="controls" autoplay="autoplay">
+			<source src="media/gunsforhands.mp3" type="audio/mpeg"/>
+	</audio>
+	</div>
+</body>
+
+</html>
